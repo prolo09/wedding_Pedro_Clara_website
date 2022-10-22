@@ -8601,3 +8601,45 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+/* costumizations */
+
+.centered-image {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+.contact {
+	padding: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+	.person {
+		padding: 5%;
+		display: flex;
+	}
+
+	.person img {
+		width: 10rem;
+		height: width;
+		border-radius: 50%;
+		margin: 10px;
+		margin-right: 20px;
+	}
+
+	.person ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.person h3 {
+		margin-top: 0.5rem;
+	}
+
+
+
