@@ -52,8 +52,24 @@
 						or you can just talk to us and we'll take care of it for you.</p>
 							<ul class="actions stacked">
 								<li><a href="https://estreladaidanha.pt/" target="_blank" class="button">Hotel Estrela-de-Idanha</a></li>
-								<li><a href="_" target="_blank" class="button">Price Table</a></li>
+								<li><button onclick="openNav('price-table')">Price Table</button></li>
 							</ul>
+						</div>
+						<div class="overlay" id="price-table">
+							<div class="card">
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav('price-table')">&times;</a>
+								<div class="content">
+									<h2>Hotel Estrela de Idanha</h2>
+									<h3>Price of a room per night</h3>
+									<ul>
+										<li><b>Double room: </b>75€</li>
+										<li><b>Double room with views to the mountain: </b>80€</li>
+										<li><b>Double room with balcony and view to the pool: </b>90€</li>
+										<li><b>Tripple room: </b>99€</li>
+										<li><b>Family room: </b>150€</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 						<div class="image">
 							<img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/23/45/31/7a/hotel-estrela-da-idanha.jpg" alt="" />
@@ -68,8 +84,40 @@
 								Just send us an email detailing the situation, we'll take care of it.</p>
 							</p>							
 							<ul class="actions stacked">
-								<li><a href="images/menu.jpg" target="_blank" class="button">Wedding menu</a></li>
+								<li><button onclick="openNav('menu')">Menu</button></li>
 							</ul>
+						</div>
+						<div class="overlay" id="menu">
+							<div class="card">
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav('menu')">&times;</a>
+								<div class="content">
+									<h2>Menu</h2>
+									<h3>Appetizers</h3>
+									<ul>
+										<li>Tuna salad w/ balck beans</li>
+										<li>Salted snacks</li>
+										<li>Bread with paté</li>
+									</ul>
+									<h3>Main course</h3>
+									<ul>
+										<li>Vegetable soupe</li>
+										<li>Roasted pork with baked potatos and rice</li>
+									</ul>
+									<h3>Dessert</h3>
+									<ul>
+										<li>Fruit salad</li>
+										<li>Pudin</li>
+										<li>Roasted apples</li>
+									</ul>
+									<h3>Drinks</h3>
+									<ul>
+										<li>Red and white wine</li>
+										<li>Juices</li>
+										<li>Coffee</li>
+									</ul>
+
+								</div>
+							</div>
 						</div>
 						<div class="image">
 							<img src="https://ruralea.com/wp-content/uploads/2020/10/Lombo-de-Porco-1.jpg" alt="" />
@@ -264,6 +312,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/countdown.js"></script>
+			<script src="assets/js/buttons.js"></script>
 
 	</body>
 </html>
