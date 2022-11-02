@@ -15,14 +15,14 @@ Website for the wedding of Francisco and Angélica
 
 - [ ] Hotel  
   [x] Where to stay?  
-  [ ] Price table (popup)  
+  [x] Price table (popup)  
   [x] Features (swimming pool, table tennis, etc...)  
   [x] Location   
   [x] Link to website  
 
 - [ ] Food  
   [x] *"If you have any food restrictions, contact..."*  
-  [ ] Menu. *"You can click here and view it, or keep it a surprise"* (popup or pdf?)  
+  [x] Menu. *"You can click here and view it, or keep it a surprise"* (popup or pdf?)  
   [x] Lunch will be in hotel  
 
 - [x] Party place: The Power Family house  
