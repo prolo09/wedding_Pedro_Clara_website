@@ -3,7 +3,7 @@ Website for the wedding of Pedro e Clara
 
 ## Overview
 
-[x] Header **Angélica & Francisco**
+[x] Header **Pedro e Clara**
 
 - [x] Church  
   [x] Location  
