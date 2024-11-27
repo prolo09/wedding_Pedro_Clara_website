@@ -1,5 +1,5 @@
 # wedding-website
-Website for the wedding of Francisco and Angélica - [wedding.itspower.dev](https://wedding.itspower.dev)
+Website for the wedding of Pedro e Clara 
 
 ## Overview
 
